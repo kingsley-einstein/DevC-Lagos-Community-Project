@@ -1,0 +1,17 @@
+{
+  "env": {
+    "node": true,
+    "es6": true
+  },
+  "parserOptions": {
+    "sourceType": "module"
+  },
+  "parser": "babel-eslint",
+  "extends": "airbnb-base",
+  "rules": {
+    "eqeqeq": "off",
+    "import/prefer-default-export": "off",
+    "comma-dangle": "off",
+    "max-len": "off"
+  }
+}
